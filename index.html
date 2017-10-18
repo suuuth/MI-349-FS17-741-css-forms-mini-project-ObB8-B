@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<title>Race Registration</title>
+</head>
+<style>
+body > div {
+	height: 60%;
+	width: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+form {
+	border-style: dashed;
+	border-width: 0.5px;
+	margin: 50px;
+}
+</style>
+<body>
+<div>
+<h1>Hello, World!</h1>
+<h6>In order to sign up for the race, fill out the form below!</h6>
+<p>You definitely want to sign up for this race, because it will be the best race of your life!  You might even finish this time!  Snacks and coffee will be provided throughout the race to provide enough distractions to make sure you don't finish.  Just like last time!</p>
+<form>
+  <div class="form-group">
+    <label for="exampleInputName1">Name</label>
+    <input type="name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputAddresst1">Address</label>
+    <input type="address" class="form-control" id="exampleInputAddress1" placeholder="Address">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputCity1">City</label>
+    <input type="city" class="form-control" id="exampleInputCity1" placeholder="City">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputState1">State</label>
+    <input type="address" class="form-control" id="exampleInputState1" placeholder="State">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputZip1">Zip</label>
+    <input type="zip" class="form-control" id="exampleInputZip1" placeholder="Zip">
+  </div>
+   <fieldset class="form-group">
+      <div class="row">
+        <legend class="col-form-legend col-sm-2">Gender</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              Male
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              Female
+            </label>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <div class="form-group">
+    <label for="exampleFormControlSelect1">Select Shirt Size</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>sm</option>
+      <option>m</option>
+      <option>L</option>
+      <option>xL</option>
+      <option>xxL</option>
+    </select>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</body>
+</html>
